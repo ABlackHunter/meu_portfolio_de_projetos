@@ -64,7 +64,7 @@ const CONTENT = {
     sections: {
       profile: { kicker: "Executive Profile", title: "Perfil Executivo" },
       signals: { kicker: "Executive Signals", title: "Sinais Executivos" },
-      timeline: { kicker: "Professional Timeline", title: "Trajetória Profissional" },
+      timeline: { kicker: "Professional Timeline", title: "Trajetória Profissional - Últimos 7 anos" },
       programs: {
         kicker: "Selected Programs & Business Impact",
         title: "Programas Selecionados & Impacto",
