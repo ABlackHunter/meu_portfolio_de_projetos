@@ -179,5 +179,40 @@
   <script src="content.js"></script>
   <script src="app.js"></script>
   <script src="scene.js"></script>
+
+ <!-- Whats flutuante -->
+  
+  <style>
+  .whatsapp-flutuante {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+
+  /* Efeito de aumentar levemente quando passa o mouse por cima */
+  .whatsapp-flutuante:hover {
+    transform: scale(1.1);
+    color: #fff;
+  }
+</style>
+
+<a href="https://wa.me/5511940387970" class="whatsapp-flutuante" target="_blank" rel="noreferrer">
+  <i class="fab fa-whatsapp"></i>
+</a>
+  
 </body>
 </html>
