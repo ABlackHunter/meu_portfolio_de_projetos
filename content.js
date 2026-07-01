@@ -77,7 +77,7 @@ const CONTENT = {
       contact: { kicker: "Let's connect", title: "Vamos conversar" },
     },
     profile:
-      "Executivo de Tecnologia com quase 20 anos liderando programas estratégicos e transformações de negócio em Saúde, Seguros, Varejo, Indústria e Educação. Especialista em conectar estratégia C-Level à execução técnica, conduzindo PMOs, programas digitais, cloud, compliance, sourcing, produtos e transições corporativas em ambientes complexos e regulados.",
+      "Program Manager & Consultor Estratégico com quase 20 anos de trajetória em Tecnologia da Informação, especializado na orquestração de iniciativas complexas e transformação digital de larga escala. Sólida experiência na liderança de programas e portfólios multissetoriais (Saúde, Seguros, Indústria e Educação), com forte atuação em implantação de sistemas complexos, desenvolvimento de software, projetos de arquitetura e segurança, e processos de fusão e segregação de empresas (M&A). Reconhecido pela condução de treinamentos e capacitação corporativa para assegurar a adoção tecnológica. Especialista em conectar camadas executivas (C-Level) à execução técnica, governando times globais e mitigando riscos em cenários de alta complexidade.",
     signals: [
       { icon: "clock", title: "Quase 20 anos em Tecnologia, Projetos, Programas e Transformação Digital" },
       { icon: "globe", title: "Atuação Brasil, Chile e EUA" },
