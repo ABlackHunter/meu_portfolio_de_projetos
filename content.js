@@ -26,7 +26,7 @@ const ROLES = [
   "Mergers and acquisitions",
 ];
 
-const HERO_CHIPS = ["PMO", "Program Management", "Agile", "Cloud", "Compliance", "Networks", "Architecture", "Software development", "M&A"];
+const HERO_CHIPS = ["PMO", "Program", "Agile", "Cloud", "Compliance", "Networks", "Architecture", "Development", "M&A"];
 
 const CONTENT = {
   /* ======================== PORTUGUÊS ======================== */
