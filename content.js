@@ -9,7 +9,7 @@
 
 const CONTACT = {
   location: "São Paulo, SP — Brasil",
-  phone: "+55 (11) 9.4028-7970",
+  phone: "+55 (11) 9.4038-7970",
   phoneHref: "+5511940287970",
   email: "anderson.s.sousa34@gmail.com",
   linkedin: "linkedin.com/in/andersonsantosdesousa",
