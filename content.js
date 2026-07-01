@@ -193,30 +193,43 @@ const CONTENT = {
       {
         group: "Leadership & Governance",
         items: [
-          "Program Management", "Portfolio Governance", "PMO", "Stakeholder Management",
-          "Vendor Management", "Risk Management", "Compliance", "Executive Reporting",
+          "Program Management", "Corporate Governance", "CAPEX & OPEX Management",
+           "Value Management Office (VMO)", "PMO Setup", "Stakeholder Management", 
+           "C-Level Advisory", "Vendor Management", "Risk & Compliance", 
+           "Regulatory Audits (SOX/LGPD)", "Carve-out & Transition Governance", 
+           "Business Continuity", "Strategic Sourcing (RFP/BID)", "Executive Reporting", 
+           "Agile & Hybrid Frameworks",
         ],
       },
       {
         group: "Business & Transformation",
         items: [
-          "Digital Transformation", "M&A / Carve-out", "Business Continuity", "Cloud Migration",
-          "Business Process Management", "VMO / ROI", "Sourcing / RFP / BID",
+          "Digital Transformation", "Corporate Carve-out", "M&A Integration",
+           "Legacy Modernization", "Change Management", "Process Optimization (BPM)",
+           "Product Lifecycle Management (PLM)", "Value Stream Mapping", "SaaS Migration", 
+           "Cloud Strategy", "Innovation Roadmap", "Organizational Agility", "Operational Efficiency", 
+           "Capability Building",
         ],
       },
       {
         group: "Technology & Delivery",
         items: [
-          "Jira", "Azure DevOps", "MS Project", "MS Visio", "ClickUp", "Bitrix24", "Trello",
-          "Salesforce", "Power BI", "Qlik Sense", "SQL Server", "MySQL", "Oracle", "DB2",
-          "Python / Pandas", "SAP", "Protheus", "SuccessFactors", "AWS",
+          "Software Development Life Cycle (SDLC)", "Multi-Cloud Strategy", 
+           "Cloud Computing (AWS)", "Infrastructure Migration", "Data Governance", 
+           "Business Intelligence (Power BI/Qlik)", "CRM Implementation (Salesforce)", 
+           "ERP/HCM Systems (SAP/TOTVS)", "API & Architecture Modernization", "SaaS Delivery", 
+           "Application Lifecycle Management (ALM)", "DevSecOps", "SLA & KPI Tracking", 
+           "Cross-Functional Delivery", "Global Team Orchestration"
         ],
       },
       {
-        group: "Metodologias",
+        group: "Methodologies",
         items: [
-          "SAFe", "MoP", "PMBOK", "Kanban", "Lean", "Flight Levels", "Scrum", "VMO",
-          "Agile / Hybrid Delivery",
+          "Agile Methodologies", "Hybrid Frameworks", "Scrum", "Kanban", 
+           "SAFe (Scaled Agile Framework)", "PMBOK / PMP", 
+           "MoP (Management of Portfolios)", "Flight Levels", "Lean Thinking", 
+           "Business Process Management (BPM)", "Design Thinking", 
+           "Value Management Office (VMO)", "ITIL", "COBIT", "OKRs (Objectives and Key Results)",
         ],
       },
     ],
