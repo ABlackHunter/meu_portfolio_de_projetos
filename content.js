@@ -10,7 +10,7 @@
 const CONTACT = {
   location: "São Paulo, SP — Brasil",
   phone: "+55 (11) 9.4038-7970",
-  phoneHref: "+5511940287970",
+  phoneHref: "+5511940387970",
   email: "anderson.s.sousa34@gmail.com",
   linkedin: "linkedin.com/in/andersonsantosdesousa",
   linkedinUrl: "https://www.linkedin.com/in/andersonsantosdesousa",
@@ -22,9 +22,11 @@ const ROLES = [
   "Digital Transformation",
   "Technology Strategy",
   "M&A / Carve-out",
+  "Business process management",
+  "Mergers and acquisitions",
 ];
 
-const HERO_CHIPS = ["PMO", "Cloud", "Compliance", "M&A", "Program Management"];
+const HERO_CHIPS = ["PMO", "Agile", "Cloud", "Compliance", "Networks", "architecture", "Software development", "M&A", "Program Management"];
 
 const CONTENT = {
   /* ======================== PORTUGUÊS ======================== */
