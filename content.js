@@ -23,7 +23,7 @@ const ROLES = [
   "Technology Strategy",
   "M&A / Carve-out",
   "Business process management",
-  "Mergers and acquisitions",
+   
 ];
 
 const HERO_CHIPS = ["PMO", "Cloud", "Compliance", "Networks", "Architecture", "Development"];
@@ -79,12 +79,12 @@ const CONTENT = {
     profile:
       "Program Manager & Consultor Estratégico com quase 20 anos de trajetória em Tecnologia da Informação, especializado na orquestração de iniciativas complexas e transformação digital de larga escala. Sólida experiência na liderança de programas e portfólios multissetoriais (Saúde, Seguros, Indústria e Educação), com forte atuação em implantação de sistemas complexos, desenvolvimento de software, projetos de arquitetura e segurança, e processos de fusão e segregação de empresas (M&A). Reconhecido pela condução de treinamentos e capacitação corporativa para assegurar a adoção tecnológica. Especialista em conectar camadas executivas (C-Level) à execução técnica, governando times globais e mitigando riscos em cenários de alta complexidade.",
     signals: [
-      { icon: "clock", title: "Quase 20 anos em Tecnologia, Projetos, Programas e Transformação Digital" },
-      { icon: "globe", title: "Atuação Brasil, Chile e EUA" },
+      { icon: "clock", title: "Quase 20 anos em Tecnologia, Processos, Projetos, Programas e Transformação Digital" },
+      { icon: "globe", title: "Atuação em projetos no Brasil, Chile e EUA" },
       { icon: "merge", title: "M&A / Carve-out / TSA / Business Continuity" },
-      { icon: "layers", title: "PMO estruturado do zero" },
+      { icon: "layers", title: "Estruturação de PMO zero" },
       { icon: "cloud", title: "Cloud Migration & Digital Modernization" },
-      { icon: "shield", title: "Compliance SOX / LGPD" },
+      { icon: "shield", title: "Compliance SOX / LGPD / SUSEP / CMN" },
       { icon: "handshake", title: "Sourcing, RFP, BID e Vendor Governance" },
       { icon: "users", title: "C-Level Stakeholder Management" },
     ],
