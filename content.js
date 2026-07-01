@@ -10,7 +10,7 @@
 const CONTACT = {
   location: "São Paulo, SP — Brasil",
   phone: "+55 (11) 9.4038-7970",
-  phoneHref: "+5511940387970",
+  phoneHref: "https://w.app/7xfmca", // Link direto para o WhatsApp
   email: "anderson.s.sousa34@gmail.com",
   linkedin: "linkedin.com/in/andersonsantosdesousa",
   linkedinUrl: "https://www.linkedin.com/in/andersonsantosdesousa",
@@ -246,7 +246,7 @@ const CONTENT = {
       langs: [
         { name: "Português", level: "Nativo" },
         { name: "Espanhol", level: "Avançado" },
-        { name: "Inglês", level: "Profissional" },
+        { name: "Inglês", level: "Técnico" },
         { name: "Japonês", level: "Básico" },
       ],
     },
