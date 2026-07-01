@@ -182,7 +182,7 @@
 
  <!-- Whats flutuante -->
   
-  <style>
+ <style>
   .whatsapp-flutuante {
     position: fixed;
     width: 60px;
@@ -208,10 +208,17 @@
     transform: scale(1.1);
     color: #fff;
   }
+
+  /* Garante o tamanho correto da imagem do logo */
+  .whatsapp-flutuante img {
+    width: 35px;
+    height: 35px;
+  }
 </style>
 
 <a href="https://wa.me/5511940387970" class="whatsapp-flutuante" target="_blank" rel="noreferrer">
-  <i class="fab fa-whatsapp"></i>
+  <!-- Imagem SVG direta do logo do WhatsApp substituindo a tag antiga <i> -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
 </a>
   
 </body>
