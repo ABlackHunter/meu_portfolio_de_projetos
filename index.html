@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anderson Santos de Sousa — Enterprise Program Director · Executive Portfolio</title>
+  <meta name="description" content="Executive portfolio de Anderson Santos de Sousa — Enterprise Program Director, PMO Executive, Digital Transformation, Technology Strategy e M&A / Carve-out." />
+  <meta name="author" content="Anderson Santos de Sousa" />
+  <meta name="theme-color" content="#060c18" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Anderson Santos de Sousa — Executive Portfolio" />
+  <meta property="og:description" content="Enterprise Program Director | PMO Executive | Digital Transformation | Technology Strategy | M&A / Carve-out" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Canvas do fundo 3D (Three.js). Degrada graciosamente se não carregar. -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Anderson Santos de Sousa">
+        <span class="brand-mark">AS</span>
+        <span class="brand-name">Anderson S. de Sousa<small>Executive Portfolio</small></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Seções"></nav>
+
+      <div class="nav-actions">
+        <div class="lang-toggle" role="group" aria-label="Idioma / Idioma">
+          <button data-lang="pt" type="button">PT</button>
+          <button data-lang="es" type="button">ES</button>
+        </div>
+        <button class="btn btn-outline-pdf" id="pdfBtn" type="button" title="Salvar / Guardar PDF">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          <span class="pdf-label" id="pdfLabel">Salvar PDF</span>
+        </button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <span id="top"></span>
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow" id="heroEyebrow"></p>
+          <h1 id="heroName"></h1>
+          <div class="hero-roles" id="heroRoles"></div>
+          <p class="hero-tagline" id="heroTagline"></p>
+          <div class="hero-cta" id="heroCta"></div>
+          <div class="hero-contact" id="heroContact"></div>
+        </div>
+        <div class="hero-figure">
+          <div class="photo-ring">
+            <div class="photo-frame">
+              <!-- TROCAR A FOTO: substitua o arquivo assets/anderson.jpg (ou mude o src abaixo). -->
+              <img id="execPhoto" src="assets/anderson.jpg"
+                   onerror="this.onerror=null;this.src='assets/photo-placeholder.svg'"
+                   alt="Anderson Santos de Sousa" />
+            </div>
+            <div id="floatChips"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PERFIL ===================== -->
+    <section class="section" id="profile">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker" data-kicker="profile"></p>
+          <h2 class="section-title" data-title="profile"></h2>
+        </div>
+        <div class="profile-card reveal">
+          <div class="profile-stat">
+            <div class="num">~20</div>
+            <div class="lbl" id="yearsLbl">Anos de Liderança</div>
+          </div>
+          <p class="profile-text" id="profileText"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SINAIS ===================== -->
+    <section class="section" id="signals">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker" data-kicker="signals"></p>
+          <h2 class="section-title" data-title="signals"></h2>
+        </div>
+        <div class="signals-grid" id="signalsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== TRAJETÓRIA ===================== -->
+    <section class="section" id="timeline">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker" data-kicker="timeline"></p>
+          <h2 class="section-title" data-title="timeline"></h2>
+        </div>
+        <div class="timeline" id="timelineList"></div>
+      </div>
+    </section>
+
+    <!-- ===================== PROGRAMAS ===================== -->
+    <section class="section" id="programs">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker" data-kicker="programs"></p>
+          <h2 class="section-title" data-title="programs"></h2>
+        </div>
+        <div class="programs-grid" id="programsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== COMPETÊNCIAS ===================== -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker" data-kicker="skills"></p>
+          <h2 class="section-title" data-title="skills"></h2>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== FORMAÇÃO ===================== -->
+    <section class="section" id="education">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker" data-kicker="education"></p>
+          <h2 class="section-title" data-title="education"></h2>
+        </div>
+        <div class="edu-grid" id="eduGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-card reveal">
+          <p class="kicker" data-kicker="contact" style="justify-content:center"></p>
+          <h2 data-title="contact"></h2>
+          <p id="contactLead"></p>
+          <div class="contact-actions" id="contactActions"></div>
+          <div class="contact-meta" id="contactMeta"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer wrap">
+    <span class="f-brand">Anderson Santos de Sousa — <span id="footerTag">Executive Portfolio</span></span>
+    <a class="to-top" href="#top" id="toTop">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      <span id="toTopLabel">Voltar ao topo</span>
+    </a>
+  </footer>
+
+  <!-- Three.js (build global UMD, funciona via file:// e em qualquer hosting) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Conteúdo + lógica (scripts clássicos, sem build step) -->
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+  <script src="scene.js"></script>
+</body>
+</html>
